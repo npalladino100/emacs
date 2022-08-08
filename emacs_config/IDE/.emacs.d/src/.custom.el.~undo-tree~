@@ -1,0 +1,490 @@
+(undo-tree-save-format-version . 1)
+"c61f148fba3e91c473156bcda951fb0ab8721572"
+[nil nil nil nil (25221 10972 731704 0) 0 nil]
+([nil nil ((1178 . 3307) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Iosevka\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2129 (fontified nil)) . -1178) (1153 . 1177) (880 . 883) (#("
+" 0 1 (fontified nil)) . -1150) (879 . 880) (1149 . 1150) (878 . 879) (#(" " 0 1 (fontified nil)) . 878) (868 . 1149) (#(" " 0 1 (fontified nil)) . 868) (838 . 869) (356 . 359) (#("
+" 0 1 (fontified nil)) . -835) (355 . 356) (834 . 835) (354 . 355) (#(" " 0 1 (fontified nil)) . 354) (344 . 834) (#(" " 0 1 (fontified nil)) . 344) (1 . 345) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t)
+ '(custom-enabled-themes '(manoj-dark))
+ '(custom-safe-themes
+   '(\"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default))
+ '(package-selected-packages
+   '(gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda))
+ '(tool-bar-mode nil))" 0 1038 (fontified nil)) . -1) (t 25221 10512 0 0)) nil (25221 10972 731686 0) 0 nil])
+([nil nil ((1245 . 3374) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Iosevka\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2129 (fontified nil)) . -1245) (1220 . 1244) (947 . 950) (#("
+" 0 1 (fontified nil)) . -1217) (946 . 947) (1216 . 1217) (945 . 946) (#(" " 0 1 (fontified nil)) . 945) (935 . 1216) (#(" " 0 1 (fontified nil)) . 935) (905 . 936) (356 . 359) (#("
+" 0 1 (fontified nil)) . -902) (355 . 356) (901 . 902) (354 . 355) (#(" " 0 1 (fontified nil)) . 354) (344 . 901) (#(" " 0 1 (fontified nil)) . 344) (1 . 345) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (manoj-dark)))
+ '(custom-safe-themes
+   (quote
+    (\"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(package-selected-packages
+   (quote
+    (undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1176 (fontified nil)) . -1) (t 25221 10972 0 0)) nil (25221 11043 97315 0) 0 nil])
+([nil nil ((1239 . 3368) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Iosevka\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2129 (fontified nil)) . -1239) (1214 . 1238) (941 . 944) (#("
+" 0 1 (fontified nil)) . -1211) (940 . 941) (1210 . 1211) (939 . 940) (#(" " 0 1 (fontified nil)) . 939) (929 . 1210) (#(" " 0 1 (fontified nil)) . 929) (899 . 930) (350 . 353) (#("
+" 0 1 (fontified nil)) . -896) (349 . 350) (895 . 896) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 895) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (manoj-dark)))
+ '(custom-safe-themes
+   (quote
+    (\"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(package-selected-packages
+   (quote
+    (undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1243 (fontified nil)) . -1) (t 25221 11043 0 0)) nil (25221 11044 384863 0) 0 nil])
+([nil nil ((1239 . 3369) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Iosevka\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2129 (fontified nil)) . -1239) (1214 . 1238) (941 . 944) (#("
+" 0 1 (fontified nil)) . -1211) (940 . 941) (1210 . 1211) (939 . 940) (#(" " 0 1 (fontified nil)) . 939) (929 . 1210) (#(" " 0 1 (fontified nil)) . 929) (899 . 930) (350 . 353) (#("
+" 0 1 (fontified nil)) . -896) (349 . 350) (895 . 896) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 895) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(package-selected-packages
+   (quote
+    (undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1237 (fontified nil)) . -1) (t 25221 11044 0 0)) nil (25221 11060 764576 0) 0 nil])
+([nil nil ((1359 . 3489) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Consolas\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2130 (fontified nil)) . -1359) (1334 . 1358) (1061 . 1064) (#("
+" 0 1 (fontified nil)) . -1331) (1060 . 1061) (1330 . 1331) (1059 . 1060) (#(" " 0 1 (fontified nil)) . 1059) (1049 . 1330) (#(" " 0 1 (fontified nil)) . 1049) (940 . 1050) (#(" " 0 1 (fontified nil)) . 940) (899 . 941) (350 . 353) (#("
+" 0 1 (fontified nil)) . -896) (349 . 350) (895 . 896) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 895) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(package-selected-packages
+   (quote
+    (undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1237 (fontified nil)) . -1) (t 25221 11060 0 0)) nil (25221 11509 858390 0) 0 nil])
+([nil nil ((1374 . 3504) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Consolas\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2130 (fontified nil)) . -1374) (1349 . 1373) (1061 . 1064) (#("
+" 0 1 (fontified nil)) . -1346) (1060 . 1061) (1345 . 1346) (1059 . 1060) (#(" " 0 1 (fontified nil)) . 1059) (1049 . 1345) (#(" " 0 1 (fontified nil)) . 1049) (940 . 1050) (#(" " 0 1 (fontified nil)) . 940) (899 . 941) (350 . 353) (#("
+" 0 1 (fontified nil)) . -896) (349 . 350) (895 . 896) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 895) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(flycheck-python-pycompile-executable
+   \"\\\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\\\"\")
+ '(package-selected-packages
+   (quote
+    (undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1357 (fontified nil)) . -1) (t 25297 60491 545953 600000)) nil (25297 60804 146622 139000) 0 nil])
+([nil nil ((1441 . 3571) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Consolas\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2130 (fontified nil)) . -1441) (1416 . 1440) (1128 . 1131) (#("
+" 0 1 (fontified nil)) . -1413) (1127 . 1128) (1412 . 1413) (1126 . 1127) (#(" " 0 1 (fontified nil)) . 1126) (1116 . 1412) (#(" " 0 1 (fontified nil)) . 1116) (1007 . 1117) (#(" " 0 1 (fontified nil)) . 1007) (966 . 1008) (350 . 353) (#("
+" 0 1 (fontified nil)) . -963) (349 . 350) (962 . 963) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 962) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(flycheck-python-pycompile-executable
+   \"\\\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\\\"\")
+ '(package-selected-packages
+   (quote
+    (nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1372 (fontified nil)) . -1) (t 25297 60804 136581 279000)) nil (25297 60839 138293 620000) 0 nil])
+([nil nil ((1470 . 3600) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Consolas\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2130 (fontified nil)) . -1470) (1445 . 1469) (1157 . 1160) (#("
+" 0 1 (fontified nil)) . -1442) (1156 . 1157) (1441 . 1442) (1155 . 1156) (#(" " 0 1 (fontified nil)) . 1155) (1145 . 1441) (#(" " 0 1 (fontified nil)) . 1145) (1036 . 1146) (#(" " 0 1 (fontified nil)) . 1036) (966 . 1037) (350 . 353) (#("
+" 0 1 (fontified nil)) . -963) (349 . 350) (962 . 963) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 962) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"0511293cecfff89edd24781b0c31b42ee8017ae3a53c292befd51ac94a63c031\" \"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(flycheck-python-pycompile-executable
+   \"\\\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\\\"\")
+ '(package-selected-packages
+   (quote
+    (nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1439 (fontified nil)) . -1) (t 25297 60839 126581 297000)) nil (25297 60861 799875 733000) 0 nil])
+([nil nil ((1494 . 3624) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Consolas\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2130 (fontified nil)) . -1494) (1469 . 1493) (1157 . 1160) (#("
+" 0 1 (fontified nil)) . -1466) (1156 . 1157) (1465 . 1466) (1155 . 1156) (#(" " 0 1 (fontified nil)) . 1155) (1145 . 1465) (#(" " 0 1 (fontified nil)) . 1145) (1036 . 1146) (#(" " 0 1 (fontified nil)) . 1036) (966 . 1037) (350 . 353) (#("
+" 0 1 (fontified nil)) . -963) (349 . 350) (962 . 963) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 962) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"0511293cecfff89edd24781b0c31b42ee8017ae3a53c292befd51ac94a63c031\" \"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(fci-rule-color \"#4C566A\")
+ '(flycheck-python-pycompile-executable
+   \"\\\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\\\"\")
+ '(package-selected-packages
+   (quote
+    (nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1468 (fontified nil)) . -1) (t 25297 60861 796581 309000)) nil (25298 1060 935136 221000) 0 nil])
+([nil nil ((1494 . 3629) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"Consolas\" :foundry \"outline\" :slant normal :weight normal :height 143 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2130 (fontified nil)) . -1494) (1469 . 1493) (1157 . 1160) (#("
+" 0 1 (fontified nil)) . -1466) (1156 . 1157) (1465 . 1466) (1155 . 1156) (#(" " 0 1 (fontified nil)) . 1155) (1145 . 1465) (#(" " 0 1 (fontified nil)) . 1145) (1036 . 1146) (#(" " 0 1 (fontified nil)) . 1036) (966 . 1037) (350 . 353) (#("
+" 0 1 (fontified nil)) . -963) (349 . 350) (962 . 963) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 962) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"0511293cecfff89edd24781b0c31b42ee8017ae3a53c292befd51ac94a63c031\" \"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(fci-rule-color \"#4C566A\")
+ '(flycheck-python-pycompile-executable
+   \"\\\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\\\"\")
+ '(package-selected-packages
+   (quote
+    (lsp-pyright use-package nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1492 (fontified nil)) . -1) (t 25298 1060 926584 339000)) nil (25298 3375 938480 844000) 0 nil])
+([nil current ((1522 . 3657) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family \"DejaVu Sans Mono\" :foundry \"PfEd\" :slant normal :weight normal :height 128 :width normal))))
+ '(dashboard-heading ((t (:inherit dashboard-footer))))
+ '(org-block ((t (:inherit fixed-pitch))))
+ '(org-code ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-info ((t (:foreground \"dark orange\"))))
+ '(org-document-info-keyword ((t (:inherit (shadow fixed-pitch)))))
+ '(org-document-title ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 2.0 :underline nil))))
+ '(org-indent ((t (:inherit (org-hide fixed-pitch)))))
+ '(org-level-1 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.75))))
+ '(org-level-2 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.5))))
+ '(org-level-3 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.25))))
+ '(org-level-4 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\" :height 1.1))))
+ '(org-level-5 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-6 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-7 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-level-8 ((t (:inherit default :weight bold :foreground \"SystemWindowText\" :font \"Georgia\"))))
+ '(org-link ((t (:foreground \"royal blue\" :underline t))))
+ '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-property-value ((t (:inherit fixed-pitch))) t)
+ '(org-special-keyword ((t (:inherit (font-lock-comment-face fixed-pitch)))))
+ '(org-table ((t (:inherit fixed-pitch :foreground \"#83a598\"))))
+ '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold :height 0.8))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch))))))" 0 2135 (fontified nil)) . -1522) (1497 . 1521) (1157 . 1160) (#("
+" 0 1 (fontified nil)) . -1494) (1156 . 1157) (1493 . 1494) (1155 . 1156) (#(" " 0 1 (fontified nil)) . 1155) (1145 . 1493) (#(" " 0 1 (fontified nil)) . 1145) (1036 . 1146) (#(" " 0 1 (fontified nil)) . 1036) (966 . 1037) (350 . 353) (#("
+" 0 1 (fontified nil)) . -963) (349 . 350) (962 . 963) (348 . 349) (#(" " 0 1 (fontified nil)) . 348) (338 . 962) (#(" " 0 1 (fontified nil)) . 338) (1 . 339) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (nord)))
+ '(custom-safe-themes
+   (quote
+    (\"0511293cecfff89edd24781b0c31b42ee8017ae3a53c292befd51ac94a63c031\" \"37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8\" \"fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088\" \"2b9dc43b786e36f68a9fd4b36dd050509a0e32fe3b0a803310661edb7402b8b6\" \"197cefea731181f7be51e9d498b29fb44b51be33484b17416b9855a2c4243cb1\" \"8f97d5ec8a774485296e366fdde6ff5589cf9e319a584b845b6f7fa788c9fa9a\" \"585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739\" \"b583823b9ee1573074e7cbfd63623fe844030d911e9279a7c8a5d16de7df0ed0\" \"8e797edd9fa9afec181efbfeeebf96aeafbd11b69c4c85fa229bb5b9f7f7e66c\" default)))
+ '(fci-rule-color \"#4C566A\")
+ '(flycheck-python-pycompile-executable
+   \"\\\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\\\"\")
+ '(package-selected-packages
+   (quote
+    (lsp-pyright use-package nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+ '(tool-bar-mode nil))" 0 1492 (fontified nil)) . -1) (t 25298 3375 926585 562000)) nil (25298 3492 112899 646000) 0 nil])
+nil
