@@ -13,14 +13,14 @@
    "\"C:/Users/Palladino/AppData/Local/Programs/Python/Python310/python.exe\"")
  '(package-selected-packages
    (quote
-    (doom-modeline all-the-icons lsp-pyright use-package nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
+    (jupyter doom-modeline all-the-icons lsp-pyright use-package nordless-theme undo-tree company-anaconda anaconda-mode crdt org-download writeroom-mode spacemacs-theme ivy gruvbox-theme workgroups2 virtualenvwrapper switch-window smartparens python-mode popwin nord-theme lsp-ui lsp-python-ms lsp-java flycheck elpy direx dashboard counsel conda)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 128 :width normal))))
+ '(default ((t (:family "Fantasque Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 128 :width normal))))
  '(dashboard-heading ((t (:inherit dashboard-footer))))
  '(org-block ((t (:inherit fixed-pitch))))
  '(org-code ((t (:inherit (shadow fixed-pitch)))))

@@ -7,7 +7,7 @@
 ;; Set the title
 (setq dashboard-banner-logo-title "Emacs")
 ;; Set the banner
-;(setq dashboard-startup-banner (concat user-emacs-directory "/images/waves.png"))
+(setq dashboard-startup-banner (concat user-emacs-directory "/images/gnu2.png"))
 ;; Value can be
 ;; 'official which displays the official emacs logo
 ;; 'logo which displays an alternative emacs logo

@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"18c889e3df0e08ec84d20f78439f7f662d9f2a90"
+[nil nil nil nil (25328 32474 580192 618000) 0 nil]
+([nil nil ((#(";" 0 1 (face font-lock-comment-delimiter-face fontified t)) . -224) (undo-tree-id0 . -1) 225 (t 25328 27729 0 0)) nil (25328 32474 580189 56000) 0 nil])
+([nil nil ((#("waves" 0 5 (fontified t face font-lock-string-face)) . 293) (undo-tree-id0 . -5) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -5) (undo-tree-id4 . -5) 298 (t 25328 32474 580590 80000)) nil (25328 32715 573146 179000) 0 nil])
+([nil current ((293 . 297)) nil (25328 32715 573126 540000) 0 nil])
+nil
